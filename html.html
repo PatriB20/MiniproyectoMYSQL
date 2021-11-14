@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <title>Estudiantes</title>
+</head>
+<body>
+    <main>
+        <h1 style="color: teal;">ESTUDIANTES</h1>
+        <form method=" " action=" " style="width: 40%; border-color: white;">
+            <fieldset >
+                <label for="inputExample"> id_estudiante</label>
+                <input type="text"name="inputName" id="id_estudiante" >
+            </fieldset>
+            <fieldset >
+                <label for="inputExample"> Primer apellido </label>
+                <input type="text"name="inputEdad" id="apellido1" >
+            </fieldset>
+            <fieldset>
+                <label for="inputExample"> Segundo apellido</label>
+                <input type="text"name="inputGenero" id="apellido2" >
+            </fieldset>
+            <fieldset>
+                <label for="inputExample"> Grupo</label>
+                <input type="text"name="inputRetired" id="id_grupo" >
+            </fieldset>
+            <fieldset>
+                <label for="inputExample"> Año de ingreso</label>
+                <input type="text"name="inputNacionalidad" id="ingreso" >
+            </fieldset>
+            <fieldset>
+                <label for="inputExample"> id_asignatura</label>
+                <input type="text"name="inputOscars" id="id_asignatura" >
+            </fieldset>
+            </form>
+            <button type="button" onclick="postEstudiante()">Crear</button>
+            <button type="button" onclick="putEstudiante()">Modificar</button>
+            <button type="button" onclick="deleteEstudiante()">Borrar</button>
+        <h1 style="color: teal;">Mostrar Estudiante</h1>
+                <button type="button" onclick=" getEstudiante()">Mostrar</button>
+                <div id=mostrarEstudiante ></div>
+        <h1 style="color: teal;">Mostrar Todos los estudiantes</h1>
+        <button type="button" onclick=" getEstudiantes()">Mostrar</button>
+        <div id=mostrarEstudiantes ></div>
+
+             
+    </main>
+    
+</body>
+</html>

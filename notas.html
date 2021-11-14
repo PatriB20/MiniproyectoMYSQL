@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="notas.js"></script>
+    <title>Notas</title>
+</head>
+<body>
+    <main>
+        <h1 style="color: teal;">NOTAS</h1>
+        <form method=" " action=" " style="width: 40%; border-color: white;">
+            <fieldset >
+                <label for="inputExample"> id_notas</label>
+                <input type="text"name="inputName" id="id_notas" >
+            </fieldset>
+            <fieldset >
+                <label for="inputExample"> id_estudiante </label>
+                <input type="text"name="inputEdad" id="id_estudiante" >
+            </fieldset>
+            <fieldset>
+                <label for="inputExample">id_asignatura</label>
+                <input type="text"name="inputGenero" id="id_asignatura" >
+            </fieldset>
+            <fieldset>
+                <label for="inputExample"> Fecha</label>
+                <input type="text"name="inputRetired" id="fecha" >
+            </fieldset>
+            <fieldset>
+                <label for="inputExample"> Nota</label>
+                <input type="text"name="inputNacionalidad" id="nota" >
+            </fieldset>
+            </form>
+            <button type="button" onclick="postNotas()">Crear</button>
+            <button type="button" onclick="putNotas()">Modificar</button>
+            <button type="button" onclick="deleteNota()">Borrar</button>
+        <h1 style="color: teal;">Mostrar Nota</h1>
+                <button type="button" onclick="getNota()">Mostrar</button>
+                <div id="mostrarNota" ></div>
+        <h1 style="color: teal;">Mostrar todas las notas</h1>
+        <button type="button" onclick=" getNotas()">Mostrar</button>
+        <div id=mostrarNotas ></div>
+
+             
+    </main>
+    
+</body>
+</html>
